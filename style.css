@@ -17,7 +17,7 @@ body, html {
     
 }
 body{
-    background-color:#d2e1c4; 
+    background-color:#0A2626; 
 }
 .logo{
     width: 100%;
@@ -27,8 +27,8 @@ body{
 }
 .logo-img img{
     margin-top: 30px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .titulo-principal{
@@ -42,20 +42,22 @@ body{
 .titulo-principal h1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 300;
-    color: #0A2626;
-    font-size: 48px;
+    color: white;
+    font-size: 60px;
     text-align: right;
     padding-right: 30%;
 }
 .titulo-principal .gestante-verde{
+    font-family: 'Alegreya Sans SC', sans-serif;
     color:#7AA64E ;
     padding-right: 30%;
 }
 .titulo-principal h2{
-    font-family: 'Cormorant Garamond', serif;
-    color: #0A2626;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
     text-align: right;
     padding-right: 30%;
+    font-size: 26px;
 }
 .titulo-principal p{
     padding-top: 20px;
@@ -65,7 +67,7 @@ body{
     font-size: 22px;
     max-width: 90%;
     font-weight: 400;
-    color: black;
+    color:white;
 }
 
 .video-principal{
@@ -90,7 +92,6 @@ body{
     
     width: 500px;
     height: 250px;
-    border: 4px solid white;    
     border-radius: 10px;
 }
 
@@ -98,21 +99,24 @@ body{
 /*conteudo principal*/
 
 .conteudo-principal{
+
+    margin-top: 120px;
     width: 100%;
+    
 }
 .conteudo-principal h1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 400;
-    color: #0A2626;
-    font-size: 48px;
-    padding-top: 60px;
+    font-size: 35px;
+    padding-top: 30px;
     text-align: center;
+    color: red;
 }
 
 .conteudo-principal h2{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 400;
-    color: #0A2626;
+    color:#7AA64E ;
     font-size: 35px;
     padding-top: 30px;
     text-align: center;
@@ -123,7 +127,7 @@ body{
     max-width: 600px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    color:black;
+    color:white;
     padding-top: 30px;
     padding-top: 30px;
     text-align: justify;
@@ -148,8 +152,7 @@ body{
 .video-conteiner iframe{
     position: absolute;
     width: 100%;
-    height: 100%;
-    border: 4px solid white;    
+    height: 100%;  
     border-radius: 10px;    
 }
 
@@ -160,10 +163,12 @@ body{
     width: 100%;
 }
 .proximo-passo h1{
+    margin-top: 100px;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 200;
     font-size: 50px;
     text-align: center;
+    color: white;
 }
  span{
     color: #7AA64E;
@@ -174,6 +179,8 @@ body{
     font-weight: 200;
     font-size: 25px;
     text-align: center;
+    color: white;
+    
 }
 
 .proximo-passo p{
@@ -182,6 +189,7 @@ body{
     font-size: 18px;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 .proximo-passo button {
@@ -207,13 +215,15 @@ body{
 /*sobre*/
 
 .sobre{
+
     width: 100%;
-    margin-top: 20px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 .sobre-foto{
     width: 40%;
     float: left;
+    padding-top: 20px;
 }
 
 .foto{
@@ -222,6 +232,18 @@ body{
     height:270px;
     border-radius: 50%;
     background-image: url(fotogabi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #52433D;
+    float: right;
+    
+}
+.foto2{
+    
+    width: 270px;
+    height:270px;
+    border-radius: 50%;
+    background-image: url(WhatsApp\ Image\ 2022-09-14\ at\ 18.32.24.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid #52433D;
@@ -238,6 +260,7 @@ body{
     font-weight: 200;
     font-size: 30px;
     text-align: center;
+    color: white;
 }
 
 .how-is p{
@@ -248,6 +271,7 @@ body{
     text-align: justify;
     align-items: center;
     padding: 20px;
+    color: white;
 }
 .depoimentos {
     margin-top: 50px;
@@ -442,18 +466,18 @@ body{
         margin: 0 auto;
         font-family: 'Alegreya Sans SC', sans-serif;
         font-weight: 300;
-        color: #0A2626;
-        font-size: 48px;
+        font-size: 80px;
         
         
     }
     .titulo-principal .gestante-verde{
-        color:#7AA64E ;
+        
         padding-right: 30%;
+        font-size: 80px;
     }
     .titulo-principal h2{
         font-family: 'Cormorant Garamond', serif;
-        color: #0A2626;
+        font-size: 40px;
         
     }
     
@@ -554,7 +578,6 @@ body{
         font-family: 'Alegreya Sans SC', sans-serif;
         font-weight: 200;
         font-size: 30px;
-        color: #0A2626;
         margin-bottom: 40px;
         
         
@@ -572,7 +595,7 @@ body{
         font-weight: 400;
         font-size: 30px;
         text-align: center;
-        color: #0A2626;
+        
     
     }
     .depoimentos .v1{
@@ -608,33 +631,34 @@ body{
 
 @media(max-width:550px){
 
+    .titulo-principal{
+        
+        margin: 0 auto;
+        width: 100%;
+    }
     .titulo-principal h1{
         font-family: 'Alegreya Sans SC', sans-serif;
-        font-weight: 300;
-        color: #0A2626;
-        font-size: 40px;
-        text-align: right;
-        padding-right: 30%;
+        font-weight: 300; 
+        text-align: center;
+        margin-left: 10%;
     }
-    .titulo-principal .gestante-verde{
-        color:#7AA64E ;
-        padding-right: 30%;
-    }
+    
     .titulo-principal h2{
         font-family: 'Cormorant Garamond', serif;
-        color: #0A2626;
-        text-align: right;
-        padding-right: 30%;
+        text-align: center;
+        margin-left: 10%;
     }
   
 
     .conteudo-principal{
         width: 100%;
+        margin: 0 auto;
+
     }
     .conteudo-principal h1{
         font-family: 'Alegreya Sans SC', sans-serif;
         font-weight: 400;
-        color: #0A2626;
+        
         font-size: 48px;
         padding-top: 60px;
         text-align: center;
@@ -643,7 +667,7 @@ body{
     .conteudo-principal h2{
         font-family: 'Alegreya Sans SC', sans-serif;
         font-weight: 400;
-        color: #0A2626;
+        
         font-size: 35px;
         padding-top: 30px;
         text-align: center;
@@ -656,7 +680,7 @@ body{
         max-width: 600px;
         font-family: 'Cormorant Garamond', serif;
         font-weight: 400;
-        color:black;
+        
         padding-top: 30px;
         padding-top: 30px;
         text-align: justify;
@@ -668,29 +692,28 @@ body{
 
 /*395*/
 
-@media(max-width:395px){
+@media(max-width:428px){
 
      /*titulo-principal*/
 
-     .titulo-principal{
+     
+     .titulo-principal h1{
         width: 100%;
-        
-        
-    }
-
-    .titulo-principal h1{
-      
-        font-size: 32px;
-        
+        margin: 0 auto;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        font-weight: 300;
+        font-size: 60px;
+        margin-left: 40px;
         
     }
-    
-
-    .titulo-principal p{
-       font-size: 14px;
-       margin-bottom: 30px;
+    .titulo-principal .gestante-verde{
+        font-size: 60px;
     }
-
+    .titulo-principal h2{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 25px;
+        
+    }
 
 
     /*video-principal*/
@@ -726,7 +749,7 @@ body{
 .conteudo-principal h1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 400;
-    color: #0A2626;
+    
     font-size: 35px;
     padding-top: 60px;
     text-align: center;
@@ -734,7 +757,7 @@ body{
 
 .conteudo-principal h2{
    
-    color: #0A2626;
+    
     font-size: 26px;
 }
 /*logo*/
